@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Vaibhav_Porfolio/static/css/main.d38549f7.css",
-    "main.js": "/Vaibhav_Porfolio/static/js/main.3032c0e8.js",
+    "main.js": "/Vaibhav_Porfolio/static/js/main.eb571155.js",
     "static/js/453.f93e9c00.chunk.js": "/Vaibhav_Porfolio/static/js/453.f93e9c00.chunk.js",
     "static/media/P1.gif": "/Vaibhav_Porfolio/static/media/P1.515e658a8d78cb34ee11.gif",
     "static/media/social-media.gif": "/Vaibhav_Porfolio/static/media/social-media.dddacb8dbec2f607bd35.gif",
@@ -80,11 +80,11 @@
     "static/media/logoo.svg": "/Vaibhav_Porfolio/static/media/logoo.6aa8565faaff0c15b843538679e2f24a.svg",
     "static/media/._BlackMango-ExtraBold.ttf": "/Vaibhav_Porfolio/static/media/._BlackMango-ExtraBold.64f7b1f723ed694e1a1a.ttf",
     "main.d38549f7.css.map": "/Vaibhav_Porfolio/static/css/main.d38549f7.css.map",
-    "main.3032c0e8.js.map": "/Vaibhav_Porfolio/static/js/main.3032c0e8.js.map",
+    "main.eb571155.js.map": "/Vaibhav_Porfolio/static/js/main.eb571155.js.map",
     "453.f93e9c00.chunk.js.map": "/Vaibhav_Porfolio/static/js/453.f93e9c00.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d38549f7.css",
-    "static/js/main.3032c0e8.js"
+    "static/js/main.eb571155.js"
   ]
 }
