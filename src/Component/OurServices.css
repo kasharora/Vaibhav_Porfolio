@@ -1,0 +1,120 @@
+/* src/ScrollingContainer.css */
+#service{
+  background-color: var(--background-color);
+  background-image: url('./backk.svg'); 
+  margin-bottom: 8%;
+}
+
+.containerr {
+  text-align: center;
+  padding: 50px;
+  
+  border-radius: 15px;
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+
+
+.pre-headingg {
+  font-size: 12px;
+  font-weight: bold;
+  border: 1px solid #333;
+  color: var(--text-color);
+  display: inline-block;
+  padding: 12px;
+  border-radius: 20px;
+  
+}
+.pre-headingg-process {
+  font-size: 12px;
+  font-weight: bold;
+  border: 1px solid #333;
+  color: white;
+  display: inline-block;
+  padding: 12px;
+  border-radius: 20px;
+  
+}
+.main-headingg {
+  font-size: 60px;
+  font-family: 'blackmango';
+  color: var(--text-color);
+  margin-bottom: 0;
+}
+
+.sub-headingg {
+  font-size: 18px;
+  margin-bottom: 40px;
+  width: 45%;
+  font-family: 'Poppins', sans-serif;
+  margin-left: 28%;
+  color: grey;}
+@media (max-width: 450px) {
+  .sub-headingg {
+    font-size: 16px;
+    margin-bottom: 40px;
+    width: 80%;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 10%;
+    color: grey;
+  }
+  .pre-headingg-process {
+    font-size: 12px;
+    font-weight: bold;
+    border: 1px solid #333;
+    color: white;
+    display: inline-block;
+    padding: 12px;
+    border-radius: 20px;
+    margin-top: 8%;
+    
+  }
+  .main-headingg {
+    font-size: 44px;
+    font-family: 'blackmango';
+    color: var(--text-color);
+    margin-bottom: 0;
+    width: 71%;
+    margin-left: 16%;
+  }
+  .subtitlee{
+    font-size: 64px;
+    color: #4a4a4a;
+    font-family: "Instrument Serif", serif;
+    padding-bottom: 4%;
+    
+    margin-top: 1%;
+    padding-top: 0;
+  }
+}
+.subtitlee{
+  font-size: 64px;
+  color: #4a4a4a;
+  font-family: "Instrument Serif", serif;
+  padding-bottom: 4%;
+  
+  margin-top: 1%;
+  padding-top: 0;
+}
+@media (max-width: 450px) {
+  .containerr{
+  width:100%;
+  margin-left: 0;
+  padding-left: 0;
+  margin-right: 0;
+  padding-right: 0;
+}
+.subtitlee{
+  font-size: 44px;
+  color: #4a4a4a;
+  font-family: "Instrument Serif", serif;
+  padding-bottom: 4%;
+  
+  margin-top: 1%;
+  padding-top: 0;
+}
+
+}

@@ -1,0 +1,131 @@
+.project-gallery-container {
+    background-color: #121212;
+    color: white;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .gallery-title {
+    font-size: 44px;
+    margin-bottom: 10px;
+  }
+  
+  .pg-subtitle {
+    color: #5e3aff;
+  }
+  .subtitle-pg{
+    font-size: 54px;
+        margin-bottom: 40%;
+        color: gray;
+        font-family: 'Instrument Serif';
+  }
+  
+  .gallery-description {
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+    max-width: 600px;
+  }
+  
+  .project-gallery-card {
+    display: flex;
+    margin-top: 3%;
+    flex-direction: column;
+    margin-left: 29%;
+    align-items: center;
+    gap: 50px;
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  .card {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease;
+    width: 140%;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-content {
+    padding: 25px;
+    text-align: left;
+  }
+  
+  .card-content h3 {
+    margin: 0 0 10px 0;
+    font-size: 24px;
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 400;
+  }
+  
+  .card-content p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: white;
+  }
+  
+  .play-button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+  }
+  
+  .play-button:hover {
+    background-color: #5e3aff;
+    color: white;
+  }
+  
+  @media (max-width: 768px) {
+    .project-gallery {
+      max-width: 100%;
+    }
+    .project-gallery-card {
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        align-items: center;
+        gap: 40px;
+        max-width: 600px;
+        width: 100%;
+      }
+      .card {
+        background-color: #1e1e1e;
+        border-radius: 10px;
+        overflow: hidden;
+        position: relative;
+        transition: transform 0.3s ease;
+        width: 93%;
+        
+      }
+      .card-link {
+        text-decoration: none;
+        color: inherit;
+        display: block;
+      }
+  }

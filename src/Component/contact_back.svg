@@ -1,0 +1,67 @@
+<svg width="1437" height="830" viewBox="0 0 1437 830" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.3" clip-path="url(#clip0_461_469)">
+<path d="M1417.82 829.291V0.108398" stroke="#727272" stroke-dasharray="6 6"/>
+<path d="M1368.39 829.291V0.108398" stroke="#727272" stroke-dasharray="6 6"/>
+<path d="M1318.95 829.291V0.108398" stroke="#727272" stroke-dasharray="6 6"/>
+<path d="M1269.51 829.291V0.108398" stroke="#727272" stroke-dasharray="6 6"/>
+<path d="M1220.07 829.291V0.108398" stroke="#727272" stroke-dasharray="6 6"/>
+<path d="M1170.62 829.291V0.108398" stroke="#727272" stroke-dasharray="6 6"/>
+<path d="M1121.19 829.291V0.108398" stroke="#727272" stroke-dasharray="6 6"/>
+<path d="M1071.75 829.291V0.108398" stroke="#727272" stroke-dasharray="6 6"/>
+<path d="M1022.31 829.291V0.108398" stroke="#727272" stroke-dasharray="6 6"/>
+<path d="M972.867 829.291V0.108398" stroke="#727272" stroke-dasharray="6 6"/>
+<path d="M923.43 829.291V0.108398" stroke="#727272" stroke-dasharray="6 6"/>
+<path d="M873.992 829.291V0.108398" stroke="#727272" stroke-dasharray="6 6"/>
+<path d="M824.551 829.291V0.108398" stroke="#727272" stroke-dasharray="6 6"/>
+<path d="M775.105 829.291V0.108398" stroke="#727272" stroke-dasharray="6 6"/>
+<path d="M725.641 829.303V0.120605" stroke="#727272" stroke-dasharray="6 6"/>
+<path d="M676.203 829.303V0.120605" stroke="#727272" stroke-dasharray="6 6"/>
+<path d="M626.758 829.303V0.120605" stroke="#727272" stroke-dasharray="6 6"/>
+<path d="M577.32 829.303V0.120605" stroke="#727272" stroke-dasharray="6 6"/>
+<path d="M527.883 829.303V0.120605" stroke="#727272" stroke-dasharray="6 6"/>
+<path d="M478.441 829.303V0.120605" stroke="#727272" stroke-dasharray="6 6"/>
+<path d="M429 829.303V0.120605" stroke="#727272" stroke-dasharray="6 6"/>
+<path d="M379.555 829.303L379.556 0.121094" stroke="#727272" stroke-dasharray="6 6"/>
+<path d="M330.121 829.303V0.121094" stroke="#727272" stroke-dasharray="6 6"/>
+<path d="M280.684 829.303V0.120605" stroke="#727272" stroke-dasharray="6 6"/>
+<path d="M231.234 829.303L231.236 0.121094" stroke="#727272" stroke-dasharray="6 6"/>
+<path d="M181.793 829.303V0.120605" stroke="#727272" stroke-dasharray="6 6"/>
+<path d="M132.355 829.303V0.120605" stroke="#727272" stroke-dasharray="6 6"/>
+<path d="M82.9141 829.303L82.9142 0.121094" stroke="#727272" stroke-dasharray="6 6"/>
+<path d="M33.4844 829.303L33.4845 0.120605" stroke="#727272" stroke-dasharray="6 6"/>
+<path d="M0.386719 793.371L1551.82 793.372" stroke="#727272" stroke-dasharray="6 6"/>
+<path d="M0.386719 742.811H1551.82" stroke="#727272" stroke-dasharray="6 6"/>
+<path d="M0.386719 692.25H1551.82" stroke="#727272" stroke-dasharray="6 6"/>
+<path d="M0.386719 641.689L1551.82 641.691" stroke="#727272" stroke-dasharray="6 6"/>
+<path d="M0.386719 591.13H1551.82" stroke="#727272" stroke-dasharray="6 6"/>
+<path d="M0.386719 540.571H1551.82" stroke="#727272" stroke-dasharray="6 6"/>
+<path d="M0.386719 490.008L1551.82 490.009" stroke="#727272" stroke-dasharray="6 6"/>
+<path d="M0.386719 439.449H1551.82" stroke="#727272" stroke-dasharray="6 6"/>
+<path d="M0.386719 388.89H1551.82" stroke="#727272" stroke-dasharray="6 6"/>
+<path d="M0.386719 338.33L1551.82 338.331" stroke="#727272" stroke-dasharray="6 6"/>
+<path d="M0.386719 287.77H1551.82" stroke="#727272" stroke-dasharray="6 6"/>
+<path d="M0.386719 237.211H1551.82" stroke="#727272" stroke-dasharray="6 6"/>
+<path d="M0.386719 186.65L1551.82 186.651" stroke="#727272" stroke-dasharray="6 6"/>
+<path d="M0.386719 136.091H1551.82" stroke="#727272" stroke-dasharray="6 6"/>
+<path d="M0.386719 85.5303L1551.82 85.5305" stroke="#727272" stroke-dasharray="6 6"/>
+<path d="M0.386719 34.9717L1551.82 34.9719" stroke="#727272" stroke-dasharray="6 6"/>
+<g filter="url(#filter0_d_461_469)">
+<rect x="702" y="73" width="628" height="732" rx="20" fill="white"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_461_469" x="698" y="73" width="636" height="740" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_461_469"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_461_469" result="shape"/>
+</filter>
+<clipPath id="clip0_461_469">
+<rect width="1437" height="830" fill="white"/>
+</clipPath>
+</defs>
+</svg>

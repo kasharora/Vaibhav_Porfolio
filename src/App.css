@@ -1,0 +1,55 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  /* height: 100%; */
+  font-family: Arial, sans-serif;
+  /* overflow-x: hidden; */
+}
+
+.scrollanimate-container {
+  position: relative;
+  height: auto; /* Adjusted height to accommodate 7 slides */
+
+}
+
+.scrollanimate-card {
+  position: sticky;
+/* 
+  width: 100%;
+  height: 100vh; */
+  /* transform: translate(0%, -50%); */
+  transition: opacity 1s ease-out, z-index 0s linear 1s;
+  opacity: 0;
+  transition: opacity 1s ease-out;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  margin-bottom: -20vh;
+}
+/* .scrollanimate-card:nth-child(1) {
+  background: #ff9999;
+}
+
+.scrollanimate-card:nth-child(2) {
+  background: #99ff99;
+}
+
+.scrollanimate-card:nth-child(3) {
+  background: #9999ff;
+}
+
+.scrollanimate-card:nth-child(4) {
+  background: #ffcc99;
+}
+
+.scrollanimate-card:nth-child(5) {
+  background: #66ccff;
+}
+
+.scrollanimate-card:nth-child(6) {
+  background: #ff99cc;
+}
+
+.scrollanimate-card:nth-child(7) {
+  background: #ccff99;
+} */

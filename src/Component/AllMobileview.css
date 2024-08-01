@@ -1,0 +1,575 @@
+@media (max-width: 450px) {
+    body{
+        overflow-x: hidden;
+    }
+    .Maindivlogo{
+        display: none;
+      }
+      .Mobileviewlogo{
+        display: block;
+        width: 100%;
+      }
+      .navbar {
+        top:5%;
+        left:42%; 
+      }
+      .navbar-item{
+            padding: 10px 10px;
+            font-size: 10px;
+
+      }
+      .navbar {
+    position: fixed;
+    top: 5%;
+    left: 41%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    padding: 10px 14px;
+    z-index: 1000;
+  }
+  .navbar2 {
+    position: fixed;
+    top: 48%;
+    left: 112%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    padding: 10px 14px;
+    z-index: 1000;
+  }
+  
+
+      .cursor{
+        display: none;
+      }
+    .navbarMobileView-container {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 16px;
+        background-color: white;
+        box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+      }
+      
+      .navbarMobileView-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      
+      .navbarMobileView-left {
+        display: flex;
+        align-items: center;
+      }
+      
+      .navbarMobileView-logo {
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+      }
+      
+      .navbarMobileView-text {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .navbarMobileView-name, .navbarMobileView-subtext {
+        font-size: 16px;
+      }
+      
+      .navbarMobileView-right {
+        display: flex;
+        align-items: center;
+      }
+      
+      .navbarMobileView-hamburger {
+        font-size: 30px;
+        background: none;
+        border: none;
+        cursor: pointer;
+      }
+      
+      .navbarMobileView-navbar {
+        margin-top: 20px;
+      }
+      
+      .navbarMobileView-navbar ul {
+        list-style: none;
+        padding: 0;
+      }
+      
+      .navbarMobileView-navbar li {
+        padding: 10px 0;
+        border-bottom: 1px solid #7853f3;
+        /* box-shadow: 0px 1px 2px 0px #7853F3; */
+      }
+      .content{
+        box-shadow: none;
+        mask-image: none;
+      }
+
+      .moving-text{
+        display: none;
+      }
+      .content-image {
+        margin-left: 15%;
+        width: 250px;
+        height: 250px;
+      }
+      .content-image:hover{
+        box-shadow: none;
+      }
+
+      .image-container{
+        margin-top: 5%;
+        display: flex;
+        height: 250px;
+        margin-left: 5px;
+
+      }
+      .Figma-image{
+        margin-left: -20%;
+      }
+      .third-div-text{
+        font-size: 18px;
+        padding-left: 10%;
+        padding-right: 10%;
+        margin-top: 30px;
+        line-height: 30px;
+      }
+      .third-div-text-span{
+        margin-left: 30px;
+      }
+
+      .Work_Together {
+        width: 50%;
+        padding-left: 10px;
+        padding-right: 10px; 
+         padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 14px;
+        border-radius: 20px;
+        color: black;
+        border: 2px solid #A17FE9;
+        background-color: white;
+        margin-bottom: 15%;
+        font-family: 'Poppins';
+        font-weight: 600;
+
+    }
+
+    /* Let's Start the css of about page */
+    .Bottom_navbar{
+        display: none;
+    }
+    .AboutPage{
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 95%;
+        margin-top: 40%;
+        line-height: 60px;
+        margin-bottom: 60%;
+    }
+    .AboutPage h2{
+        font-size: 28px;    
+    }
+    .AboutPage h1{
+        font-size: 24px;
+        margin-top: 10%;
+        
+    }
+
+
+    /* about page css end */
+    /* work gallery css start */
+    #Work_gallery{
+        height: auto;
+        width:100%;
+    }
+    .title{
+        font-size: 76px;
+        margin-top: 40%;
+    }
+    .subtitle{
+        font-size: 34px;
+        margin-bottom: 40%;
+        
+    }
+    .subtitle-contact{
+        font-size: 54px;
+        margin-bottom: 40%;
+        color: gray;
+        font-family: 'Instrument Serif';
+    }
+    .services-title {
+        font-size: 44px;
+        font-family: 'blackmango';
+        padding-left: 10px;
+        font-weight: 400;
+        color: var(--text-color);
+      
+      }
+      .services-heading {
+        font-size: 64px;
+        font-weight: 400;
+        font-family: "Instrument Serif", serif;
+        color: grey;
+      }
+    .image-scroller img{
+        height: 300px;
+    }
+
+    #brush-stroke::after {
+        content: '';
+        position: absolute;
+        left: -10px;
+        right: -10px;
+        bottom: 7px;
+        height: 4px;
+        background-color: #9676ff;;
+        border-radius: 50% 40% 60% 50% / 30% 60% 40% 70%;
+        transform: scaleX(1.05) skew(95deg);
+      }
+
+    /* work gallery css end */
+
+
+    /* project css start */
+    #project-App{
+        width:100%;
+        margin-top: 10%;
+    }
+    .project-left-div{
+        margin-top: 10%;
+        width: 70%;
+        padding: 40px;
+        /* padding-left: 10px;
+        padding-right: 10px; */
+        margin-left: 5%;
+        text-align: center;
+    }
+    .project_header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .project-top-left{
+        text-align: center;
+    }
+    .project-top-right{
+        text-align: center;
+        line-height: 30px;
+    }
+    .project-image-row{
+        width: 100%;
+        flex-direction: column;
+    }
+    .project-image-row img{
+        width: 80%;
+        margin-top: 20px;
+    }
+    /* project css end */
+
+    /* services page css start */
+
+    #services-container{
+        flex-direction: column;
+    }
+    .services-right{
+        padding-top: 40%;
+    }
+    .services-left{
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+        margin-top: 10%;
+    }
+    .services-row{
+        flex-direction: column;
+        margin-top: 0;
+        margin-bottom: 0;   
+        margin-left: 25%;
+    }
+    .flip-card{
+        margin-bottom: 50px;
+    }
+    
+    /* services page css end */
+
+    /* process page css start */
+    .process-page {
+  
+        text-align: center;
+        background-image: url('./backk.svg'); 
+        width:96%;
+        height: 100%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        border-radius: 50px;  
+        margin-top: 30px;
+        margin-left: 2%;
+        font-family: 'Poppins';
+        /* margin-left: 5%; */
+        border:0px 0px 0px 2px solid rgb(68, 68, 68);
+        box-shadow: 0 10px 40px 0px rgba(255, 255, 255, 0.1);
+        align-content: center;
+        align-items: center;
+        background: linear-gradient(#0D0D0D,#000000);
+        border-radius: 50px;
+        overflow-x: hidden;
+      
+      }
+    #process-page{
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    .process-title{
+        line-height: 60px;
+        font-size: 42px;
+    }
+    .process-image-title{
+        margin-top: 16%;
+        flex-direction: column;
+        margin-left: 0;
+        justify-content: start;
+        width: 20%;
+        gap: 23%;
+        margin-left: 8px;
+
+        
+    }
+    .process-subtitle{
+        font-size: 32px;
+        margin-bottom: 0;
+    }
+    .process-main-image-container{
+        width:80%;
+        display: flex;
+
+    }
+    .process-image-title-text{
+        font-size: 18px;
+        margin-left: 56px;
+    }
+    .process-image-title-text-2{
+        font-size: 14px;
+        display: none;
+    }
+
+    .process_main_part{
+        display: flex;
+        width: 100%;
+    }
+    .process-main-image{
+        rotate: 270deg;
+        height: 60px;
+        width: 200%;
+        margin-left: -66%;
+        margin-top: 80%;
+
+    }
+    .process-bottom-images{
+        flex-direction: column;
+        justify-content: start;
+        bottom: 65%;
+        padding-left: 31%;
+        gap: 163%;
+    }
+    .process-image-bottom-title{
+        flex-direction: column;
+        width: 40%;
+        margin-left: -75%;
+        justify-content: start;
+        margin-top: 48%;
+        margin-bottom: 73%;
+        gap: 115px;
+    }
+    .process-top-images{
+        padding-left: 0;
+        flex-direction: column;
+        margin-left: 10%;
+        gap: 162%;
+        top: 11%;
+    }
+    .process-top-images img, .process-bottom-images img{
+        height: 80px;
+        width: 74px;
+    }
+
+    /* process page css end */
+
+    /* Contact Page css start */
+    .contactpageanimation-div1{
+            top:50px;
+    }
+    .contact-container{
+        margin-top: 50%;
+    }
+    .contact-title{
+        font-size: 32px;
+    }
+    .contact-heading{
+        font-size: 48px;
+    }
+    .contact-text{
+        font-family: 18px;
+    }
+    .contact-button{
+        margin-bottom: 40%;
+    }
+    .process-image-bottom-title-text{
+        font-size: 20px;
+    }
+    .process-image-bottom-title-text-2{
+        font-size: 14px;
+        display: none;
+    }
+
+    /* Contact page css end */
+    .c-title {
+        font-size: 24px;
+        font-family: 'blackmango';
+        color:  gray;
+      
+        display: grid;
+      }
+      .c-subtitle{
+        font-size: 44px;
+          color: #ffffff;
+          font-family: "Instrument Serif", serif;
+          /* padding-bottom: 4%; */
+          /* margin-top: 1%; */
+          padding-top: 0;
+      }
+    /* footer page css start */
+    .footer-container{
+        flex-direction: column;
+        height: 100%;
+        gap: 15px;
+        margin-bottom: 10%;
+        width:100%;
+        margin-top: 50px;
+    }
+    .footer-left{
+        width: 100%;
+    }
+    .footer-center{
+        width: 100%;
+    }
+    .footer-right{
+        text-align: center;
+        width: 100%;
+    }
+    .footer-social-icons{
+        margin-left: 0;
+        text-align: center;
+        
+    }
+
+    /* footer page css end */
+    /* breif contact page */
+
+    .contactpage-content{
+        flex-direction: column;
+        width: 80%;
+        padding-left: 1%;
+    }
+    .contactpage-right-section{
+        width:100%;
+    }
+    .contactpage-form-group{
+        flex-direction: column;
+    }
+    .contactpage-form-group input[type="url"]{
+        width: 100%;
+    }
+    .contactpage-left-section{
+        width: 100%;
+        padding-left: 10%;
+        padding-right: 10%;
+        text-align: center;
+    }
+    .contactpage-form-group-1{
+        width: 100%;
+    }
+    .info-section{
+        flex-direction: column-reverse;
+    }
+    .card{
+        height: auto;
+    }
+    .info-left{
+        width: 80%;
+        text-align: center;
+    }
+    .info-right{
+        width: 90%;
+    }
+    .info-right img{
+        margin-right: 0;
+    }
+    .stacking-cards-container button:first-of-type{ 
+        left: 10px;
+    }
+    .stacking-cards-container button:last-of-type{
+        right:10px
+    }
+    .stacking-cards-container button{
+        top:45%;
+    }
+    .info-left button{
+        width: 40%;
+    }
+    .info-left ul{
+        margin-bottom: 80px;
+    }
+    #info_right_2ndcard img{
+        width: 60%;
+        margin-bottom: 5%;
+    }
+    .info-left h1{
+        width: 97%;
+    }
+    /* our project css */
+    .containerrr{
+        flex-direction: column;
+    }
+    .boxx{
+        width: 100%;
+    }
+
+    #Conatct-main-page{
+        width:100%;
+    }
+    .contactpageanimation-container-pg {
+  position: relative;
+  width: 100%;
+  height: 97px;
+  overflow: hidden;
+  margin-top: 15%;
+  background-color: var(--background-color);
+  
+}
+.footer-email {
+    font-size: 12px;
+    margin: 0;
+    padding-top: 3%;
+    color: gray;
+    width: 73%;
+    margin-left: 15%;
+  }
+}
