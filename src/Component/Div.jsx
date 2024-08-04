@@ -19,6 +19,8 @@ const Div = () => {
             <div>
             <button className="icon-button">Get In Touch</button></div>
           </div>
+
+          
         </div>
         <h1 className="title">Obsessed with creating timeless digital experiences with Framer.</h1>
         <p className="description">Hey, I'm Mika, welcome to my world. I love building beautiful, timeless websites & digital experiences with Framer.</p>

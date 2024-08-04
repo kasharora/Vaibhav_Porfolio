@@ -1,44 +1,41 @@
 import React from 'react';
 import './All.css'; 
 import { useContext } from 'react'; 
-import logo from './logo.svg';
-import lightModeImage from './logoo.svg'; // replace with your light mode image path
-import darkModeImage from './logo.svg'; // replace with your dark mode image path
+import lightModeImage from './logoo.svg';
+import darkModeImage from './logo.svg';
 import { ThemeContext } from './ThemeContext';
-
-import { FaInstagram, FaLinkedin, FaMailBulk, FaPhone, FaTwitter, FaWhatsapp, FaYoutube } from 'react-icons/fa';
-
+import { FaInstagram, FaLinkedin, FaWhatsapp } from 'react-icons/fa';
 
 const Footer = () => {
- 
-    const { theme } = useContext(ThemeContext);
-    const imageSrc = theme === 'light' ? lightModeImage : darkModeImage;
+  const { theme } = useContext(ThemeContext);
+  const imageSrc = theme === 'light' ? lightModeImage : darkModeImage;
+
+  // Dummy social media links
+  const socialLinks = {
+    instagram: "https://www.instagram.com/https://www.instagram.com/ranyparihar?igsh=Nzk1Ym82d2hvZHdi",
+    whatsapp: "https://wa.me/9261177537",
+    linkedin: "https://www.linkedin.com/in/https://www.linkedin.com/in/vaibhav-parihar-8000582a2/"
+  };
 
   return (
     <div className="footer-container">
+      <img src={imageSrc} alt="Logo" className="footer-logo" />
       
-      
-        <img src={imageSrc} alt="Logo" className="footer-logo" />
-        {/* <div>
-          <p className="footer-main-text">Vaibhav Parihar</p>
-          <p className="footer-sub-text">Designs</p>
-        </div> */}
-      
-      
-      
-        <p className="footer-follow">Follow us on</p>
-        <div className="icons-footer">
+      <p className="footer-follow">Follow us on</p>
+      <div className="icons-footer">
+        <a href={socialLinks.instagram} target="_blank" rel="noopener noreferrer">
           <FaInstagram className="icon-f" />
+        </a>
+        <a href={socialLinks.whatsapp} target="_blank" rel="noopener noreferrer">
           <FaWhatsapp className="icon-f" />
-            <FaLinkedin className="icon-f" />
-            {/* <button className="icon-button">Get In Touch</button> */}
-          </div>
-        <div className="footer-center">
-        {/* <p className="footer-contact">Contact</p> */}
-        <p className="footer-email">Copyright © 2024 vaibhav. Crafted with ❤️ and copious amounts of cafeen!</p>
-        
+        </a>
+        <a href={socialLinks.linkedin} target="_blank" rel="noopener noreferrer">
+          <FaLinkedin className="icon-f" />
+        </a>
       </div>
-      
+      <div className="footer-center">
+        <p className="footer-email">Copyright © 2024 vaibhav. Crafted with ❤️ and copious amounts of caffeine!</p>
+      </div>
     </div>
   );
 }

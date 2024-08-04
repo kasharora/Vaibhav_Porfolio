@@ -1,7 +1,7 @@
 .project-gallery-container {
     background-color: #121212;
     color: white;
-    padding: 20px;
+    /* padding: 20px; */
     font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
@@ -28,27 +28,27 @@
     font-size: 18px;
     margin-bottom: 30px;
     font-family: 'Poppins', sans-serif;
-    max-width: 600px;
+    max-width: 100%;
   }
   
   .project-gallery-card {
     display: flex;
     margin-top: 3%;
     flex-direction: column;
-    margin-left: 29%;
+    margin-left: 0;
     align-items: center;
     gap: 50px;
-    max-width: 600px;
+
     width: 100%;
   }
   
   .card {
-    background-color: #1e1e1e;
+    background-color: none;
     border-radius: 10px;
     overflow: hidden;
     position: relative;
     transition: transform 0.3s ease;
-    width: 140%;
+    width: 100%;
   }
   
   .card:hover {
@@ -56,8 +56,9 @@
   }
   
   .card-image {
-    width: 100%;
+    width: 80%;
     height: auto;
+    background-color: none;
   }
   
   .card-content {
@@ -120,8 +121,12 @@
         overflow: hidden;
         position: relative;
         transition: transform 0.3s ease;
-        width: 93%;
+        width: 80%;
+        padding: 10px;
         
+      }
+      .card-image{
+        width: 100%;
       }
       .card-link {
         text-decoration: none;

@@ -24,15 +24,15 @@ const Contact = () => {
   const [showAnotherInput, setShowAnotherInput] = useState(false);
 
   const handleCall = () => {
-    window.location.href = 'tel:1234567890';
+    window.location.href = 'tel:9261177537';
   };
 
   const handleWhatsApp = () => {
-    window.location.href = 'https://wa.me/1234567890?text=Hello';
+    window.location.href = 'https://wa.me/9261177537?text=Welcome_to_VaibhavParihar_Design_and_Co._We_Are_Here_To_Help_You ';
   };
 
   const handleMail = () => {
-    window.location.href = 'mailto:kashishkurra@gmail.com';
+    window.location.href = 'mailto:Ranyparihar@gmail.com';
   };
 
   const handleChange = (e) => {
