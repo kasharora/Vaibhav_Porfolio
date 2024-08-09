@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.84b33fd2.css",
-    "main.js": "/static/js/main.971e59f4.js",
+    "main.css": "/static/css/main.f0a72b9f.css",
+    "main.js": "/static/js/main.631c328e.js",
     "static/js/453.f93e9c00.chunk.js": "/static/js/453.f93e9c00.chunk.js",
+    "static/media/p11.svg": "/static/media/p11.05be9c3d1ce7e87a58a62605df36235c.svg",
     "static/media/P1.gif": "/static/media/P1.515e658a8d78cb34ee11.gif",
     "static/media/social-media.gif": "/static/media/social-media.dddacb8dbec2f607bd35.gif",
     "static/media/Background.svg": "/static/media/Background.6f2638bbc08a53c55a6527cd0ac64911.svg",
@@ -80,12 +81,12 @@
     "static/media/Arrow 2.svg": "/static/media/Arrow 2.3b6c6b3f39fe141c05630a325aa5bccf.svg",
     "static/media/logoo.svg": "/static/media/logoo.6aa8565faaff0c15b843538679e2f24a.svg",
     "static/media/._BlackMango-ExtraBold.ttf": "/static/media/._BlackMango-ExtraBold.64f7b1f723ed694e1a1a.ttf",
-    "main.84b33fd2.css.map": "/static/css/main.84b33fd2.css.map",
-    "main.971e59f4.js.map": "/static/js/main.971e59f4.js.map",
+    "main.f0a72b9f.css.map": "/static/css/main.f0a72b9f.css.map",
+    "main.631c328e.js.map": "/static/js/main.631c328e.js.map",
     "453.f93e9c00.chunk.js.map": "/static/js/453.f93e9c00.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.84b33fd2.css",
-    "static/js/main.971e59f4.js"
+    "static/css/main.f0a72b9f.css",
+    "static/js/main.631c328e.js"
   ]
 }
