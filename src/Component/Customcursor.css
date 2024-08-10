@@ -1,0 +1,17 @@
+.custom-cursor {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #7853F3;
+    box-shadow: 10px 10px 50px 20px #7853F3;
+    position: fixed;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: box-shadow 0.3s ease;
+    z-index: 9999;
+  }
+  
+  .custom-cursor.hovered {
+    box-shadow: 0 0 20px #7853F3;
+  }
+  
